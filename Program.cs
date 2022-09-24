@@ -16,32 +16,6 @@ Console.WriteLine($"Вторая цифра числа: {number1}");
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
-
-// Console.WriteLine("Введите число: ");
-// int number1 = int.Parse(Console.ReadLine());
-// int number2 = 1000;
-// while (number2/1000==0)
-// {
-// int number2 = number1/10;
-// }
-// int number3 = number2%10;
-
-// Console.WriteLine($"Третья цифра числа: {number3}");
-
-
-// Console.WriteLine("Введите число: ");
-// int number1 = int.Parse(Console.ReadLine());
-// int number2 = number1;
-// while (number2/1000>0)
-// {
-// number2 = number2 / 10;
-// }
-// number2 = number2%10;
-// else {}
-// Console.WriteLine($"Третья цифра числа: {number2}");
-
-
-
 Console.WriteLine("Введите число: ");
 int number1 = int.Parse(Console.ReadLine());
 if (number1 / 100 > 0)
